@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
     try {
       //requisição POST para o backend na rota /create
-      const response = await fetch('http://192.XXX.XXX.XXX:3333/create', { //Coloque o seu IPv4 local
+      const response = await fetch('http://192.xxx.xxx.xxx:3333/create', { //Coloque o seu IPv4 local
         method: 'POST',
         headers: {
           'Content-Type': 'application/json', // Define o tipo de conteúdo como JSON
