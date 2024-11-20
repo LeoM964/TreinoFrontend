@@ -28,7 +28,7 @@ const Home: React.FC = () => {
 
     try {
       // Requisição para o backend
-      const response = await fetch('http://192.168.100.106:3333/create', { // Substitua com o IP correto
+      const response = await fetch('http://192.XXX.XXX.XXX:3333/create', { // Substitua com o IPV4 Local
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
